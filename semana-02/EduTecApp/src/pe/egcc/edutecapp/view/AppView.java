@@ -19,7 +19,7 @@ public class AppView extends javax.swing.JFrame {
         cargarPaneles();
     }
     
-    private void cargarPaneles(){
+    private void cargarPaneles(){ //carga paneles dentro del tabbedpanel
         paneles.add("2 NUM", new Panel2Num());
         paneles.add("3 NUM", new Panel3Num());
         paneles.add("4 NUM", new Panel4Num());
